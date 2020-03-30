@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    text-align: center;
+}
+#cogs {
+    position: relative;
+}
+#left-cog path {
+    position: absolute;
+    animation: cog 3s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#right-cog path {
+    position: absolute;
+    animation: cog2 3s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box; 
+}
+@keyframes cog {
+    from {
+        transform:rotate(0deg)
+    }
+    to {
+        transform:rotate(360deg)
+    }
+}
+@keyframes cog2 {
+    from {
+        transform:rotate(360deg)
+    }
+    to {
+        transform:rotate(0deg)
+    }
+}
