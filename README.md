@@ -1,6 +1,6 @@
 # Cogs Animation
 
-SVG animation testing.
+SVG animation of two cogs rotating in an interlocking state.
 
 ## Preview
 
